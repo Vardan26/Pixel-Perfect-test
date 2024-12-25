@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "jsx": "react-jsx",
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "baseUrl": "src",
+        "paths": {
+        "@components/*": ["components/*"],
+        "@assets/*": ["assets/*"],
+        "@utils/*": ["utils/*"]
+        },
+      "typeRoots": ["node_modules/@types", "src/types"]
+    },
+    "include": [
+      "src/**/*",
+      "svg.d.ts"
+, "svg.d.ts"    ]
+  }
